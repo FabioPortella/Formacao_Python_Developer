@@ -25,4 +25,7 @@ if __name__ == "__main__":
     b1.parar()
     b1.correr()
 
-    print(b1)
+    b2 = Bicicleta("Verde", "Monark", 2023, 1500)
+    Bicicleta.buzinar(b2)
+
+    print(b2)
